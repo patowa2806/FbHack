@@ -42,8 +42,8 @@ sleep 1
 printf "$C"
 
 
-while read -p  "URL >>  " email && [ -z " $email" ]; do
-        printf "\nEscriba una url correcta\n\n"
+while read -p  "Uhttps://www.facebook.com/share/165A8kr4vU/RL >>  " email && [ -z " $email" ]; do
+        printf "\nEscriba una url https://www.facebook.com/share/165A8kr4vU/correcta\n\n"
 done
 
 sleep 2
